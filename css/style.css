@@ -1,0 +1,12 @@
+main {
+  display: table;
+  justify-content: space-around;
+  display: flex;
+}
+div {
+  display: table-cell;
+  width: 180px;
+
+  text-align: center;
+  margin: 0px;
+}
