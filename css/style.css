@@ -5,20 +5,32 @@ main {
   padding: 50px;
 }
 div {
-  display: table-cell;
-  width: 180px;
-
+  width: 200px;
   text-align: center;
   margin: 0px;
+  display: table-cell;
+}
+div .rollover {
+  background-image: url(/img/1img.png);
+  border: 1px solid white;
+}
+div .rollover:hover {
+  border-color: rgb(69, 146, 233);
+  background-image: url(/img/1img.png);
 }
 h4 {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
 }
-table p {
+td {
+  width: 33%;
+}
+p {
   font-size: 18px;
 }
 table {
+  margin: 0 auto;
   width: 1000px;
+  background-color: bisque;
 }
