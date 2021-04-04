@@ -1,35 +1,43 @@
 main {
   justify-content: space-around;
   display: flex;
-  margin-top: 70px;
-  padding: 50px;
+  margin-top: 230px;
 }
-div {
-  text-align: center;
-  margin: 0px;
-  display: table-cell;
-}
-div .rollover {
-  background-image: url(/img/1img.png);
-  border: 1px solid white;
-}
-div .rollover:hover {
-  border-color: rgb(69, 146, 233);
-  background-image: url(/img/1img.png);
+.block {
+  display: inline-block;
+  width: 400px;
+  margin: 25px 15px 25px 15px;
 }
 h4 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
 }
-td {
-  width: 33%;
-}
+
 p {
-  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #9d9d9d;
 }
-table {
-  margin: 0 auto;
-  width: 1000px;
-  background-color: rgb(247, 243, 238);
+.circle_1 {
+  border-radius: 50%  #1275B9;
+  background: url("img/cog.png")
+  background-color: #FFFFFF;;
+  height: 64px;
+  width: 64px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.circle_1:hover{
+  background-color: #1275B9;
+background: url("/img/cog\ \(1\).png");
 }
