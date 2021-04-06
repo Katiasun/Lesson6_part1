@@ -28,16 +28,16 @@ p {
   text-align: center;
   color: #9d9d9d;
 }
-.circle_1 {
-  border-radius: 50%  #1275B9;
-  background: url("img/cog.png")
-  background-color: #FFFFFF;;
+.circle_1 a {
+  border-radius: 50% #1275b9;
+  background: url("img/cog.png");
+  background-color: #ffffff;
   height: 64px;
   width: 64px;
   background-repeat: no-repeat;
   background-position: center center;
 }
-.circle_1:hover{
-  background-color: #1275B9;
-background: url("/img/cog\ \(1\).png");
+.circle_1:hover {
+  background-color: #1275b9;
+  background: url("img/cog\ \(1\).png");
 }
