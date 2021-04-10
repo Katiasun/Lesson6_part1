@@ -32,46 +32,53 @@ a {
   text-decoration: none;
 }
 .circle_1 {
-  background: url("../img/tablet.png");
-
+  background: url("../img/tablet1.png") center center no-repeat;
+  background-color: #1275b9;
+  border: 1px solid #1275b9;
+  border-radius: 50%;
   height: 64px;
   width: 64px;
-  background-repeat: no-repeat;
-  background-position: center center;
 
   margin-top: 106px;
   margin-left: 175px;
 }
 .circle_1:hover {
-  background: url("../img/tablet\ \(1\).png");
+  background: url("../img/tablet.png") center center no-repeat;
+  border: 1px solid #1275b9;
+  border-radius: 50%;
 }
-.block__back1 {
-  background: url("../img/Circle.png");
-}
+
 .block__back1:hover {
   background: url("../img/Circle\ \(1\).png");
 }
 .circle_2 {
-  background: url("../img/cog.png");
+  background: url("../img/cog1.png") center center no-repeat;
+  background-color: #1275b9;
+  border: 1px solid #1275b9;
+  border-radius: 50%;
   height: 64px;
   width: 64px;
-  background-repeat: no-repeat;
-  background-position: center center;
+
   margin-top: 106px;
   margin-left: 173px;
 }
 .circle_2:hover {
-  background: url("../img/cog\ \(1\).png");
+  background: url("../img/cog.png") center center no-repeat;
+  border: 1px solid #1275b9;
+  border-radius: 50%;
 }
 .circle_3 {
-  background: url("../img/dashboard.png");
+  background: url("../img/dashboard1.png") center center no-repeat;
+  background-color: #1275b9;
+  border: 1px solid #1275b9;
+  border-radius: 50%;
   height: 64px;
   width: 64px;
-  background-repeat: no-repeat;
-  background-position: center center;
   margin-top: 106px;
   margin-left: 166px;
 }
 .circle_3:hover {
-  background: url("../img/dashboard\ \(1\).png");
+  background: url("../img/dashboard.png") center center no-repeat;
+  border: 1px solid #1275b9;
+  border-radius: 50%;
 }
