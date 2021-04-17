@@ -39,24 +39,24 @@ a {
   border: 1px solid #1275b9;
   margin: 0 auto;
 
-  /* background-color: #fff; */
+  background-color: #fff;
 }
 .circle_1 {
   background: #1275b9 url("../img/tablet1.png") center center no-repeat;
 }
 .circle_1:hover {
-  background: url("../img/tablet.png") center center no-repeat;
+  background-image: url("../img/tablet.png");
 }
 
 .circle_2 {
   background: #1275b9 url("../img/cog1.png") center center no-repeat;
 }
 .circle_2:hover {
-  background: url("../img/cog.png") center center no-repeat;
+  background-image: url("../img/cog.png");
 }
 .circle_3 {
   background: #1275b9 url("../img/dashboard1.png") center center no-repeat;
 }
 .circle_3:hover {
-  background: url("../img/dashboard.png") center center no-repeat;
+  background-image: url("../img/dashboard.png");
 }
